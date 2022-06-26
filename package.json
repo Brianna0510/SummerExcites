@@ -10,13 +10,16 @@
     "react-dom": "^18.2.0",
     "react-scripts": "5.0.1",
     "web-vitals": "^2.1.4"
-      
   },
   "presets": [
     "@babel/preset-env",
-   ["@babel/preset-react", {"runtime": "automatic"}]
-   
-],
+    [
+      "@babel/preset-react",
+      {
+        "runtime": "automatic"
+      }
+    ]
+  ],
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
@@ -29,7 +32,6 @@
       "react-app/jest"
     ]
   },
-  
   "browserslist": {
     "production": [
       ">0.2%",
@@ -41,6 +43,5 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
-    
   }
 }
